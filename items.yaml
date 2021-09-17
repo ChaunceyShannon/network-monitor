@@ -1,0 +1,27 @@
+# 游戏API服务器:
+#   method: POST
+#   schema: https
+#   domain: player.chududu.com
+#   path: /api/player_center/getContent
+#   data: api_key=42f77fd0409566c6123d58551e85ee87&skipAlert=false&is_mobile=1&isHome=1&is_app=1
+#   header:                # 17ce只支持这几个header
+#     - key: Referer
+#       value: https://chududu.com
+#     - key: User-Agent
+#       value: "User-Agent: okhttp/3.12.12"
+#     - key: Cookie
+#       value: "My Cookie"
+#     - key: Host
+#       value: "player.chududu.com"
+
+游戏API服务器:
+  method: GET 
+  schema: https
+  domain: player.chududu.com
+  path: /api/player_center/getPlayerProfile
+
+# 沙巴体育:
+#   method: GET
+#   schema: https
+#   domain: ismart.l0097.vr2site.com
+#   path: /deposit_processlogin.aspx
